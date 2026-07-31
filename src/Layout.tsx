@@ -43,8 +43,8 @@ export default function Layout() {
 
         <footer className="bg-surface-container border-t border-primary/10 pt-20 pb-10">
           <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-                  <div className="md:col-span-1">
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 mb-16">
+                  <div className="md:col-span-3">
                       <img src="/media/ROYAL%20INDIA%20SWEETS%20AND%20BANQUET.png" alt="Royal India Sweets Logo" className="h-32 w-auto mb-6 opacity-90" />
                       <p className="font-body-md text-on-surface-variant mb-6">Authentic Indian sweets and traditional recipes served with royal hospitality.</p>
                       <div className="flex gap-4">
@@ -60,7 +60,7 @@ export default function Layout() {
                           </a>
                       </div>
                   </div>
-                  <div>
+                  <div className="md:col-span-2">
                       <h4 className="font-label-md text-label-md text-secondary uppercase tracking-widest mb-6">Quick Links</h4>
                       <ul className="space-y-4">
                           <li><Link to="/" className="font-body-md text-on-surface hover:text-primary transition-colors">Home</Link></li>
@@ -70,7 +70,7 @@ export default function Layout() {
                           <li><Link to="/contact" className="font-body-md text-on-surface hover:text-primary transition-colors">Contact Us</Link></li>
                       </ul>
                   </div>
-                  <div>
+                  <div className="md:col-span-4">
                       <h4 className="font-label-md text-label-md text-secondary uppercase tracking-widest mb-6">Contact</h4>
                       <ul className="space-y-4">
                           <li className="flex gap-3">
@@ -85,11 +85,11 @@ export default function Layout() {
                           </li>
                           <li className="flex gap-3">
                               <span className="material-symbols-outlined text-primary text-[20px]">mail</span>
-                              <a href="mailto:info@royalindiasweetsandbanquet.com" className="font-body-md text-on-surface hover:text-primary transition-colors">info@royalindiasweetsandbanquet.com</a>
+                              <a href="mailto:info@royalindiasweetsandbanquet.com" className="font-body-md text-on-surface hover:text-primary transition-colors break-words">info@royalindiasweetsandbanquet.com</a>
                           </li>
                       </ul>
                   </div>
-                  <div>
+                  <div className="md:col-span-3">
                       <h4 className="font-label-md text-label-md text-secondary uppercase tracking-widest mb-6">Hours</h4>
                       <ul className="space-y-4">
                           <li className="flex justify-between">
