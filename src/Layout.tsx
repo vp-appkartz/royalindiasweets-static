@@ -105,7 +105,7 @@ export default function Layout() {
               </div>
               <div className="border-t border-primary/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                   <p className="font-body-md text-on-surface-variant">© 2024 Royal India Sweets & Banquet. All rights reserved.</p>
-                  <p className="font-body-md text-on-surface-variant"><a href="https://appkartz.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Managed by: Appkartz Inc</a></p>
+                  <p className="font-body-md text-on-surface-variant"><a href="https://appkartz.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Managed by: Appkartz Inc.</a></p>
               </div>
           </div>
         </footer>
