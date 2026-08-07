@@ -21,7 +21,7 @@ export default function Contact() {
               <div className="bg-surface p-8 md:p-10 rounded-3xl shadow-sm border border-primary/10 opacity-0 translate-y-8 scroll-reveal transition-all duration-700">
                   <h2 className="font-headline-md text-headline-md font-bold text-on-surface mb-6 border-b border-outline-variant pb-4">Send us a Message</h2>
                   
-                  <form id="contactForm" className="space-y-6">
+                  <form id="contactForm" action="https://formsubmit.co/royalindia1636@gmail.com" method="POST" className="space-y-6">
                       <div className="grid grid-cols-1 gap-6 mb-6">
                           <div>
                               <label htmlFor="name" className="block font-label-md text-label-md text-on-surface-variant mb-1">Full Name *</label>

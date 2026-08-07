@@ -85,7 +85,7 @@ export default function Layout() {
                           </li>
                           <li className="flex gap-3">
                               <span className="material-symbols-outlined text-primary text-[20px]">mail</span>
-                              <a href="mailto:info@royalindiasweetsandbanquet.com" className="font-body-md text-on-surface hover:text-primary transition-colors break-words">info@royalindiasweetsandbanquet.com</a>
+                              <a href="mailto:royalindia1636@gmail.com" className="font-body-md text-on-surface hover:text-primary transition-colors break-words">royalindia1636@gmail.com</a>
                           </li>
                       </ul>
                   </div>

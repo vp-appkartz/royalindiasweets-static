@@ -89,7 +89,7 @@ export default function Banquet() {
                       </p>
                   </div>
                   
-                  <form id="banquetForm" className="space-y-6">
+                  <form id="banquetForm" action="https://formsubmit.co/royalindia1636@gmail.com" method="POST" className="space-y-6">
                       {/* Name Row */}
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                           <div>
