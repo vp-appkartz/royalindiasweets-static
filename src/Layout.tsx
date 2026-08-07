@@ -17,9 +17,9 @@ export default function Layout() {
                 <Link className="text-lg font-medium text-[#800120] hover:text-white bg-background/90 backdrop-blur-md px-5 py-2.5 rounded-xl shadow-sm border border-[#800120] hover:bg-[#800120] hover:shadow-md transition-all" to="/contact">Contact</Link>
             </div>
             <div className="flex items-center gap-4">
-                <Link to="/order" className="hidden md:inline-block bg-primary text-on-primary font-medium text-lg tracking-wider px-8 py-4 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 animate-pulse-soft transition-all duration-300">
+                <a href="https://order.slatexpos.com/Royal/royal-india-sweets" target="_blank" rel="noopener noreferrer" className="hidden md:inline-block bg-primary text-on-primary font-medium text-lg tracking-wider px-8 py-4 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 animate-pulse-soft transition-all duration-300">
                     Order Online
-                </Link>
+                </a>
                 <button id="mobile-menu-btn" className="md:hidden text-primary hover:text-primary-dark focus:outline-none p-2 bg-surface/80 rounded-lg shadow-sm">
                     <span className="material-symbols-outlined text-3xl">menu</span>
                 </button>
@@ -32,7 +32,7 @@ export default function Layout() {
                 <Link className="text-lg font-medium text-[#800120] hover:text-white bg-background px-5 py-3 rounded-xl shadow-sm border border-[#800120] hover:bg-[#800120] transition-all" to="/menu">Menu</Link>
                 <Link className="text-lg font-medium text-[#800120] hover:text-white bg-background px-5 py-3 rounded-xl shadow-sm border border-[#800120] hover:bg-[#800120] transition-all" to="/banquet">Banquet</Link>
                 <Link className="text-lg font-medium text-[#800120] hover:text-white bg-background px-5 py-3 rounded-xl shadow-sm border border-[#800120] hover:bg-[#800120] transition-all" to="/contact">Contact</Link>
-                <Link className="text-lg font-medium text-on-primary bg-primary px-5 py-3 rounded-xl shadow-sm border border-primary hover:bg-primary-dark transition-all text-center mt-2" to="/order">Order Online</Link>
+                <a className="text-lg font-medium text-on-primary bg-primary px-5 py-3 rounded-xl shadow-sm border border-primary hover:bg-primary-dark transition-all text-center mt-2" href="https://order.slatexpos.com/Royal/royal-india-sweets" target="_blank" rel="noopener noreferrer">Order Online</a>
             </div>
           </div>
         </nav>

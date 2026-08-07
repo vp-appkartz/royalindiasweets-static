@@ -23,9 +23,9 @@ export default function Home() {
                       From hand-crafted artisanal mithai to the rich tapestry of a royal thali, we bring the heart of India's culinary heritage to your table.
                   </p>
                   <div className="flex flex-wrap gap-4 mt-2">
-                      <Link to="/" className="inline-block bg-primary text-on-primary font-medium text-lg tracking-wider px-8 py-4 rounded-xl border border-primary hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                      <a href="https://order.slatexpos.com/Royal/royal-india-sweets" target="_blank" rel="noopener noreferrer" className="inline-block bg-primary text-on-primary font-medium text-lg tracking-wider px-8 py-4 rounded-xl border border-primary hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
                           Order Now
-                      </Link>
+                      </a>
                       <Link to="/" className="inline-block bg-transparent border border-outline text-primary font-medium text-lg tracking-wider px-8 py-4 rounded-xl hover:shadow-xl hover:-translate-y-1 hover:bg-primary/5 transition-all duration-300">
                           Explore Menu
                       </Link>
